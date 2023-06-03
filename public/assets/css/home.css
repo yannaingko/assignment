@@ -1,0 +1,255 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+body{
+    overflow-x:hidden ;
+ }
+ /*DEMO ONLY*/
+
+.service-categories {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background-size: cover;
+}
+
+
+/*DEMO ONLY*/
+
+.service-categories .card {
+  transition: all 0.3s;
+}
+
+.service-categories .card-title {
+  padding-top: 0.5em;
+}
+
+.service-categories a:hover {
+  text-decoration: none;
+}
+.av{
+  position: absolute;
+  line-height: 50px;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: fit-content;
+}
+
+.service-card {
+  position: relative;
+  background: #ddddddbd;
+  width: 120px;
+  height: 120px;
+  padding: 20px 0;
+  border: 0;
+}
+
+.service-card:hover {
+  background: rgba(72, 88, 104, 1);
+  box-shadow: 2px 4px 8px 0px rgba(46, 61, 73, 0.2)
+}
+.service-card:hover .card-title{
+  color: white;
+}
+
+ .sentence{
+    color: #5509d1;
+ }
+ a,button{
+    color: #5509d1;
+    text-decoration: none;
+ }
+ a:hover{
+    text-decoration: none;
+ }
+ .btn-custom{
+    color: white;
+    background-color: #5509d1;
+ }
+ .product-card {
+  position: relative;
+  width: fit-content;
+  border-radius: 5px;
+  padding: 10px;
+  width: 240px;
+  line-height: 15px;
+}
+.cont{
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  z-index: 10;
+  background-color: rgba(41, 41, 41, 0.89);
+  width: 100%;
+  height: 95%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;  
+}
+.product-card:hover .cont {
+  opacity: 1;
+}
+label{
+    font-weight: bold;
+}
+.content{
+    position: relative;
+    top: -25px;
+}
+.product-image {
+    position: relative;
+}
+.product-img{
+  background-color: rgba(190, 190, 190, 0.295);
+}
+
+.product-details {
+  background-color: rgba(199, 199, 199, 0.37);
+  padding: 0.5em 1em 1em 1em;
+  width: 240px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.name-status {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-name {
+  margin: 0;
+}
+
+.product-status {
+  margin: 0;
+}
+
+.product-price {
+  margin-top: 10px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.user-icon {
+    color: #5509d1;
+    font-size: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-owner {
+  margin: 0;
+}
+.control-banner{
+  width: 100vw;
+  height: 150px;
+  overflow: hidden;
+}
+.banner{
+  width: 100%;
+}
+/* search */
+.header-search{
+    position: relative;
+    width: fit-content;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%);
+}
+.search-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+.search-input {
+padding-left: 2em;
+width: 400px;
+border: none;
+}
+
+.search-icon {
+position: absolute;
+top: 50%;
+left: 5px; /* Adjust this value based on your icon size and desired spacing */
+transform: translateY(-50%);
+}
+
+.search-icon i {
+font-size: 16px; /* Adjust this value based on your icon size */
+color: #888; /* Adjust this color based on your design */
+}
+.search-card{
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    width: max-content;
+    border-radius: 5px;
+    padding: 5px;
+}
+.search-btn{
+    font-size: 17px;
+    position: relative;
+    padding: 0 30px;
+    height: 40px;
+    margin-top: 0.3em;
+    margin-left: 1em;
+}
+.h-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.icon-card{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 300px;
+    background-color: rgba(191, 236, 236, 0.438);
+
+}
+.icon{
+    padding: 1em;
+    /* background-color: rgba(191, 236, 236, 0.438); */
+    
+}
+.icon i{
+    font-size: 30px;
+    background-color: rgba(255, 209, 217, 0.377);
+    padding: 0.2em 0.5em;
+    border-radius: 50%;
+}
+.icon p {
+    margin-bottom: 1px;
+}
+.text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+            line-clamp: 1; 
+    -webkit-box-orient: vertical;
+    }
+
+.apply-btn{
+    width: 100%;
+}
+
+.admin-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+.pag-link{
+  margin-left: 1em;
+}
+.filt-page{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+.page-url{
+  background-color: rgba(214, 214, 214, 0.247);
+  width: fit-content;
+  padding: 0.3em 1em;
+}
